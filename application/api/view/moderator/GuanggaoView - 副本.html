@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>wwwwwwwww</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/static/api/css/reset.css" />
+		<style type="text/css">
+			
+		</style>
+	</head>
+
+	<body><div style="  margin:0 auto; position:absolute;"><img src="http://xinwen2.xylnqn.com\/public\/uploads\/20180411\/a99faba5cfa322a899089e50088341fe.JPG"></div>
+		<div class="mui-content">
+			
+			<a class="ad-img">
+				<div class="tiaoguo">跳过</div>
+				<img src="{$guanggao['arr'][0]['ggimg']}" />
+				<!--<a id="icon-plus"><span class="mui-icon mui-icon-plus"></span></a>-->
+			</a>
+			<div class="ad-logo">
+				<img src="{$appguanggao.appguanggaoimg|default='./public/uploads/ad-logo.png'}" />
+			</div>
+		</div>
+
+			
+		<script src="__PUBLIC__/static/common/js/jquery-2.1.0.js"></script>
+		<script type="text/javascript">
+		// $('body').prepend('<div style="  margin:0 auto; position:absolute;"><img src="http://xinwen2.xylnqn.com/./public/uploads/20180411/a99faba5cfa322a899089e50088341fe.JPG"></div>')
+			var url = "{:url('Guanggao/news')}"+'?news_id={$news_id}&user_id={$user_id}';
+			setTimeout(function(){
+				// alert({$guanggao['ggtime']} * 1000);
+				// window.location.href=url;
+			},({$guanggao['ggtime']} * 1000));
+			$('.tiaoguo').click(function(){
+				// window.location.href=url;
+			});
+		</script>
+		<img src="http://xinwen2.xylnqn.com\/public\/uploads\/20180411\/a99faba5cfa322a899089e50088341fe.JPG">
+	</body>
+
+</html>

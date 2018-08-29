@@ -1,0 +1,137 @@
+[ 2018-06-23T15:43:22+08:00 ] 192.168.0.110 192.168.0.103 GET /
+[ log ] 192.168.0.110/ [运行时间：0.131008s][吞吐率：7.63req/s] [内存消耗：1,451.79kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\WWW\www.xw.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.110',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3_1 like Mac OS X) AppleWebKit/605.1.33 (KHTML, like Gecko) Mobile/15E302 QHBrowser/317 QihooBrowser/4.0.10',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\www.xw.com\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-23T15:44:06+08:00 ] 192.168.0.110 192.168.0.103 GET /
+[ log ] 192.168.0.110/ [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,451.84kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\WWW\www.xw.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.110',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E302 MicroMessenger/6.6.7 NetType/WIFI Language/zh_CN',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\www.xw.com\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-23T15:44:10+08:00 ] 192.168.0.110 192.168.0.103 GET /
+[ log ] 192.168.0.110/ [运行时间：0.027001s][吞吐率：37.04req/s] [内存消耗：1,451.80kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\WWW\www.xw.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.110',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E302 MicroMessenger/6.6.7 NetType/WIFI Language/zh_CN',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\www.xw.com\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-23T15:46:51+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] 127.0.0.1/ [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,452.76kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\WWW\www.xw.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => '_pk_id.1.dc78=1545e201a7a70540.1526892425.1.1526892890.1526892425.; UM_distinctid=163affc7d05c2-03b44a3a95719a-46514133-1fa400-163affc7d07311; CNZZDATA5133446=cnzz_eid%3D731177138-1527664191-%26ntime%3D1527664191; Hm_lvt_1af382081d6b4b9fc610c4df9c51a95b=1527665950; Hm_lvt_d4c63618ad27be8f818e4fa9e86fe726=1527666013; _ga=GA1.1.316614368.1527666013; Hm_lvt_935fbf0ceb04a31feea33ba1b481978b=1527666119; PHPSESSID=s2d3pv2tnjddguu5kciih62au2',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\www.xw.com\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-23T15:47:22+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.zhifu.com/ [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：1,451.95kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\WWW\www.xw.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.zhifu.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\www.xw.com\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

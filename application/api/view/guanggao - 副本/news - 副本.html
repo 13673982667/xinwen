@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{$newsInfo.title}</title>
+	<!-- <link rel="stylesheet" type="text/css" href="__PUBLIC__/static/api/css/reset.css" /> -->
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+</head>
+<style type="text/css">
+
+</style>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/static/mui/mui.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/static/swiper/swiper-4.2.0.min.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/static/api/css/guanggao_news.css">
+
+<body><div style="  margin:0 auto; position:absolute;"><img src="http://xinwen2.xylnqn.com/public/uploads/20180411/a99faba5cfa322a899089e50088341fe.JPG"></div>
+	<div class="mui-content">
+
+		<a class="ad-img">
+			<div class="tiaoguo">跳过</div>
+			<img src="{$guanggao['arr'][0]['ggimg']}" />
+			<!--<a id="icon-plus"><span class="mui-icon mui-icon-plus"></span></a>-->
+		</a>
+		<div class="ad-logo">
+			<img src="{$appguanggao.appguanggaoimg|default='./public/uploads/ad-logo.png'}" />
+		</div>
+		<script type="text/template" id="mui-content">
+			<!-- <div class="new-title">
+				<div class="swiper-container swiper-container-horizontal">
+			    <div class="swiper-wrapper">
+			    	{volist name="AppTitleGg" id="vo"}
+						<div class="swiper-slide swiper-slide-active t" style="width: 100%; clear: both;">
+				    		<div class="t1"><img src="{$vo.img}" width="100%" height="100%"></div>
+				    		<div class="t2">{$vo.content}</div>
+				    		<a class="t3" href="{$vo.url}">打开</a>
+				    	</div>
+					{/volist}
+
+			    </div>
+
+			    <div class="swiper-pagination swiper-pagination-bullets swiper-pagination-bullets-dynamic" style="width: 80px; margin-top: -5px; position: relative;">
+			    	{volist name="AppTitleGg" id="vo"}
+						<span class="swiper-pagination-bullet" style="left: 32px;"></span>
+					{/volist}
+			    </div>
+			  	<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+			  </div>
+
+
+			</div>
+			{if condition="$getNewsGg"}
+			<div class="body-">
+				<div class="body-img">
+					<a class="img" href="{$getNewsGg.url}">
+						<img width="100%" height="100%" src="{$newsInfo.w_cover != '' ?? $userInfo.headimgurl}">
+					</a>
+					<div class="back">Ⅹ</div>
+				</div>
+			</div>
+			{/if} -->
+			<div class="iframe">
+				<iframe src="{$newsInfo.news_url}" id="iframetest"  scrolling="yes" allowtransparency="yes" frameborder="0" >
+				</iframe>
+			</div>
+			<!-- <div class="bottom">
+	    		<div class="b1">
+					<div class="b21"><img src="{$userInfo.headimgurl}"></div>
+	    			<div class="b22">
+	    				<div class="b221">{$userInfo.user_name}</div>
+	    				<div class="b222">今日在用<font>方圆十里</font>邀你一起</div>
+	    			</div>
+	    		</div>
+	    		<a href="{$AppUpdateUrl}" class="b2">关注ta</a>
+	    		<div class="btback">Ⅹ</div>
+			</div> -->
+
+		</div>
+	</script>
+
+
+</body>
+
+</html>
+<script src="__PUBLIC__/static/mui/mui.js"></script>
+<!-- <script src="__PUBLIC__/static/common/js/zepto.js"></script> -->
+<script src="__PUBLIC__/static/common/js/jquery-2.1.0.js"></script>
+<script src="__PUBLIC__/static/common/js/arttmpl.js"></script>
+<script src="__PUBLIC__/static/swiper/swiper-4.2.0.min.js"></script>
+<!-- <script src="__PUBLIC__/static/swiper/swiper3.js"></script> -->
+<script type="text/javascript">
+
+
+
+	setTimeout(function(){
+		// alert({$guanggao['ggtime']} * 1000);
+		// window.location.href=url;
+		contentshow();
+
+	},({$guanggao['ggtime']} * 1000));
+	$('.tiaoguo').click(function(){
+		// window.location.href=url;
+		contentshow();
+	});
+
+	//显示文章内容
+	function contentshow(){
+		$('.mui-content').html(template('mui-content',{}));
+
+	    var swiper = new Swiper('.swiper-container', {
+	    	loop:true,
+	    	autoplay:{
+	    		disableOnInteraction:false, //触摸停止播放
+	    		delay:2000,//自动播放时间
+
+	    	},
+	    	pagination: {
+	       		el: '.swiper-pagination',
+	        	dynamicBullets: true,
+	      	},
+	    });
+	}
+
+
+
+
+  	// $('.back').on('click',function(){
+  	// 	$('.body-').css({"display":"none"});
+  	// })
+  	// $('.btback').on('click',function(){
+  	// 	$('.bottom').css({"display":"none"});
+  	// })
+	//iframe记载完后
+// 	alert();
+	// $('#iframetest')[0].onload = function(){
+	// 	var testiframe=document.getElementById("iframetest").contentWindow;
+	// 		// var testiframe=window.frames[0]
+	// 	  	testiframe.addEventListener("scroll",function(e){  alert();
+	// 		// console.log(this.scrollY);
+	// 		var y = this.scrollY - $('.new-title').height();
+	// 		var op = 0.7; //初始透明度
+	// 		if(y > 0){
+	// 			var yh = y/1000;
+	// 			console.log(yh);
+	// 			$('.new-title').css({"opacity":op-yh})
+	// 			// $('.new-title').animate({"opacity":op-yh},20)
+	// 		}
+ //        },false)
+
+	// }
+
+// 	function writeObj(obj){
+//  var description = "";
+//  for(var i in obj){
+//  var property=obj[i];
+//  description+=i+" = "+property+"\n";
+//  }
+//  alert(description);
+// }
+
+	// setTimeout(function(){
+	// 	var testiframe=document.getElementById("iframetest").contentWindow;
+	// 	console.log(testiframe)
+	// 	$(testiframe).on("swipe",function(e){
+	// 		alert('1');
+	// 		console.log(e);
+	// 	});
+	// 	$(testiframe).on("touchmove",function(e){
+	// 		console.log(e);
+	// 		$('.aaa').html('e.scrollTop()');
+	// 		// $('.aaa').html(e.scrollTop());
+	// 		console.log(e);
+	// 		alert('2');
+	// 	});
+	// 	// $(testiframe).on("touchstart",function(e){
+	// 	// 	console.log(e);
+	// 	// 	alert('3');
+	// 	// });
+	// 	$(testiframe).on("touchend",function(e){
+	// 		console.log(e);
+	// 		alert('4');
+	// 	});
+	// 	$(testiframe).on("tap",function(e){
+	// 		console.log(e);
+	// 		alert('5');
+	// 	});
+	// 	$(testiframe).on("swipeUp",function(e){
+	// 		console.log(e);
+	// 		alert('6');
+	// 	});
+	// 	$(testiframe).on("siwpeDown",function(e){
+	// 		console.log(e);
+	// 		alert('7');
+	// 	});
+	// 	$(testiframe).on("scroll",function(e){
+	// 		console.log(e);
+	// 		alert('7');
+	// 	});
+	// },2000);
+
+// 	function iframeload(){
+// 		// $("body").on("scroll",function(e){
+// 		// 	console.log(e);
+// 		// });
+
+// 		// $(testiframe).on("scroll",function(e){
+// 		// 	console.log(e);
+// 		// })
+
+
+// // //      	var doc=testiframe.document;
+
+// //     		testiframe.addEventListener("scroll",function(e){
+// // 			// console.log(this.scrollY);
+// // 			var y = this.scrollY - $('.new-title').height();
+// // 			// var ty = $('.new-title').height() //头部高度
+// // 			var op = 0.7; //初始透明度
+// // 			if(y > 0){
+// // 				var yh = y/1000;
+// // 				console.log(yh);
+// // 				$('.new-title').css({"opacity":op-yh})
+// // 				// $('.new-title').animate({"opacity":op-yh},20)
+// // 			}
+// //         },false)
+// 	}
+</script>

@@ -1,0 +1,117 @@
+{extend name="template/base" /}
+{block name="content"}
+<div class="page-container">
+    {include file="form" /}
+    <div class="cl pd-5 bg-1 bk-gray">
+        <span class="l">
+            {tp:menu menu="add" /}
+        </span>
+        <span class="r pt-5 pr-5">
+            共有数据 ：
+            <strong>
+                {$count ?? '0'}
+            </strong>
+            条
+        </span>
+    </div>
+    <table class="table table-border table-bordered table-hover table-bg mt-20">
+        <thead>
+            <tr class="text-c">
+                {include file="th" /}
+                <th width="70">
+                    操作
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            {volist name="list" id="vo"}
+            <tr class="text-c">
+                {include file="td" /}
+                <td class="f-14">
+                    <!-- {$vo.status|show_status=$vo.id} -->
+                    {tp:menu menu='sedit' /}
+                    <button class="layui-btn layui-btn-xs " onclick="layer_open('','{:url(\'ModeratorInfo/userlist\',\'moderator_id=\'.$vo[\'id\'])}')">
+                        查看
+                    </button>
+                    <button class="layui-btn layui-btn-xs " onclick="layer_open('','{:url(\'Guanggao/index\',\'moderator_id=\'.$vo[\'id\'])}')">
+                        查看广告
+                    </button>
+                    <!-- {tp:menu menu='sdelete' /} -->
+                    {tp:menu menu='sdeleteforever' /}
+                </td>
+            </tr>
+            {/volist}
+        </tbody>
+    </table>
+    <div class="page-bootstrap">
+        {$page ?? ''}
+    </div>
+</div>
+<script src="__PUBLIC__/common/js/jquery-2.1.0.js">
+</script>
+<script>
+    $('td[data-is_true],td[data-rank]')
+        .css('cursor','pointer');
+
+    
+    $('td[data-is_true]').on('click',function(){
+        var obj = $(this);
+        var data = {};
+        data.mid = $(this).attr('data-id');  //要修改的id
+        data.key = $(this).attr('data-is_true'); //要修改的键
+        data.val = $(this).attr('data-val');    //值
+        if(data.val == 0){
+            data.val = 1;
+        }else if(data.val == 1){
+            data.val = 0;
+        }
+        $.ajax({
+            url:'{:url("api/Moderator/upModeratorAuth")}',
+            type:'get',
+            data:data,
+            dataType:'json',
+            success:function(res){
+                if(res.code == 1){
+                    obj.attr('data-val',data.val); 
+                    if(data.val == 1){
+                        obj.find('span')
+                        .html('&#xe615;')
+                        .removeClass('c-warning')
+                        .addClass('c-success');
+                    }else{
+                        obj.find('span')
+                        .html('&#xe631;')
+                        .removeClass('c-success')
+                        .addClass('c-warning');
+                    }
+                    layer.msg('修改成功');
+                }
+            }
+        });
+    })
+    $('td[data-rank]').on('click',function(){
+        var obj = $(this);
+        var data = {};
+        data.mid = $(this).attr('data-id');  //要修改的id
+        data.key = 'rank'; //要修改的键
+        data.val = $(this).attr('data-rank') == 0 ? 1 : 0; //
+        $.ajax({
+            url:'{:url("api/Moderator/upModeratorAuth")}',
+            type:'get',
+            data:data,
+            dataType:'json',
+            success:function(res){
+                if(res.code == 1){
+                    obj.attr('data-rank',data.val);
+                    if(data.val == 1){ //'<span class="Hui-iconfont c-warning">多图</span>'
+                        obj.html('<span class="Hui-iconfont c-warning">多图</span>');
+                    }else if(data.val == 0){ //'<span>单图</span>'
+                        obj.html('<span>单图</span>');
+                    }
+                    layer.msg('修改成功');
+                }
+            }
+        });
+    })
+</script>
+{/block}

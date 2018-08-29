@@ -1,0 +1,67 @@
+[ 2018-08-13T09:43:14+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.xw.com/ [运行时间：0.481027s][吞吐率：2.08req/s] [内存消耗：1,450.74kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\WWW\www.xw.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xw.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\www.xw.com\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-08-13T09:43:21+08:00 ] 127.0.0.1 127.0.0.1 GET HTTP://www.xw.com/
+[ log ] www.xw.comHTTP://www.xw.com/ [运行时间：0.044002s][吞吐率：22.73req/s] [内存消耗：1,450.97kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\WWW\www.xw.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xw.com',
+  'accept' => '*/*',
+  'proxy-connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\www.xw.com\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-08-13T09:43:21+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.xw.com/ [运行时间：0.045003s][吞吐率：22.22req/s] [内存消耗：1,450.75kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\WWW\www.xw.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xw.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\www.xw.com\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

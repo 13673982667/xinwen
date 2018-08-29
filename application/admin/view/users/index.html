@@ -1,0 +1,76 @@
+{extend name="template/base" /}
+{block name="content"}
+<div class="page-container">
+    <form class="mb-20" method="get" action="{:\\think\\Url::build($Request.action)}">
+        <input type="text" class="input-text" style="width:250px" placeholder="会员" name="user_name" value="{$Request.param.user_name}" >
+        <input type="text" class="input-text" style="width:250px" placeholder="省份" name="province" value="{$Request.param.province}" >
+        <input type="text" class="input-text" style="width:250px" placeholder="城市" name="city" value="{$Request.param.city}" >
+        <input type="text" class="input-text" style="width:250px" placeholder="国家" name="country" value="{$Request.param.country}" >
+        <button type="submit" class="btn btn-success"><i class="Hui-iconfont">&#xe665;</i> 搜索</button>
+    </form>
+    <div class="cl pd-5 bg-1 bk-gray">
+        <span class="l">
+            {tp:menu menu="add" /}
+        </span><!-- ,forbid,resume -->
+        <span class="r pt-5 pr-5">
+            共有数据 ：<strong>{$count ?? '0'}</strong> 条
+        </span>
+    </div>
+    <table class="table table-border table-bordered table-hover table-bg mt-20">
+        <thead>
+        <tr class="text-c">
+            <th width="25"><input type="checkbox"></th>
+            <th width="">ID</th>
+            <th width="">会员</th>
+            <th width="150">手机</th>
+            <th width="">{:sort_by('性别','sex')}</th>
+            <th width="">{:sort_by('创建时间','create_time')}</th>
+            <th width="">{:sort_by('状态','status')}</th>
+            <th width="180">个性签名</th>
+            <th width="">{:sort_by('是否删除','isdelete')}</th>
+            <th width="">登录ip</th>
+            <th width="">微信昵称</th>
+            <th width="">省份</th>
+            <th width="">城市</th>
+            <th width="">国家</th>
+            <th width="">头像</th>
+            <th width="">{:sort_by('年','year')}</th>
+            <th width="">{:sort_by('月','month')}</th>
+            <th width="">{:sort_by('日','day')}</th>
+            <th width="70">操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        {volist name="list" id="vo"}
+        <tr class="text-c">
+            <td><input type="checkbox" name="id[]" value="{$vo.id}"></td>
+            <td>{$vo.id}</td>
+            <td>{$vo.user_name|high_light=$Request.param.user_name}</td>
+            <td>{$vo.phone}</td>
+            <td>{$vo.sex}</td>
+            <td>{$vo.create_time}</td>
+            <td>{$vo.status|get_status}</td>
+            <td>{$vo.personality}</td>
+            <td>{$vo.isdelete}</td>
+            <td>{$vo.log_ip}</td>
+            <td>{$vo.w_name}</td>
+            <td>{$vo.province|high_light=$Request.param.province}</td>
+            <td>{$vo.city|high_light=$Request.param.city}</td>
+            <td>{$vo.country|high_light=$Request.param.country}</td>
+            <td><img src="{$vo.headimgurl}" width="80" height="80"></td>
+            <td>{$vo.year}</td>
+            <td>{$vo.month}</td>
+            <td>{$vo.day}</td>
+            <td class="f-14">
+                <!-- {$vo.status|show_status=$vo.id} -->
+                {tp:menu menu='sedit' /}
+                {tp:menu menu='sdeleteforever' /}
+            </td>
+        </tr>
+        {/volist}
+        </tbody>
+    </table>
+    <div class="page-bootstrap">{$page ?? ''}</div>
+</div>
+{/block}
+

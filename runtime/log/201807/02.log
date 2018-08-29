@@ -1,0 +1,838 @@
+[ 2018-07-02T11:02:00+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.xw.com/ [运行时间：0.046800s][吞吐率：21.37req/s] [内存消耗：1,450.77kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\WWW\www.xw.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xw.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\www.xw.com\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-02T11:02:05+08:00 ] 127.0.0.1 127.0.0.1 GET HTTP://www.xw.com/
+[ log ] www.xw.comHTTP://www.xw.com/ [运行时间：0.046800s][吞吐率：21.37req/s] [内存消耗：1,450.97kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\WWW\www.xw.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xw.com',
+  'accept' => '*/*',
+  'proxy-connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\www.xw.com\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-02T11:02:05+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.xw.com/ [运行时间：0.031200s][吞吐率：32.05req/s] [内存消耗：1,450.75kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\WWW\www.xw.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xw.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\www.xw.com\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-02T15:51:00+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/test?top_appkey=24943594&top_parameters=ZXhwaXJlc19pbj04NjQwMCZpZnJhbWU9MSZyMV9leHBpcmVzX2luPTg2NDAwJnIyX2V4cGlyZXNfaW49ODY0MDAmcmVfZXhwaXJlc19pbj0yNTkyMDAwJnJlZnJlc2hfdG9rZW49NjEwMDcxNTdiZTRjYjE1MjBmYmJmNWUxY2E5ODE5N2M4NmFiNWM2MmZhZjNkNTIyNzEwNTcyMjUwJnRzPTE1MzA1MTc4NzU3NDAmdmlzaXRvcl9pZD0yNzEwNTcyMjUwJnZpc2l0b3Jfbmljaz3OqNH037Lq0yZ3MV9leHBpcmVzX2luPTg2NDAwJncyX2V4cGlyZXNfaW49MTgwMA%3D%3D&top_session=6101115f5a1d9413edcbc5a1f1c3b29a71c29e83ac971b12710572250&top_sign=Rj4HtbA04A%2F31rXVRQCe8g%3D%3D
+[ log ] 127.0.0.1/index.php/index/test?top_appkey=24943594&top_parameters=ZXhwaXJlc19pbj04NjQwMCZpZnJhbWU9MSZyMV9leHBpcmVzX2luPTg2NDAwJnIyX2V4cGlyZXNfaW49ODY0MDAmcmVfZXhwaXJlc19pbj0yNTkyMDAwJnJlZnJlc2hfdG9rZW49NjEwMDcxNTdiZTRjYjE1MjBmYmJmNWUxY2E5ODE5N2M4NmFiNWM2MmZhZjNkNTIyNzEwNTcyMjUwJnRzPTE1MzA1MTc4NzU3NDAmdmlzaXRvcl9pZD0yNzEwNTcyMjUwJnZpc2l0b3Jfbmljaz3OqNH037Lq0yZ3MV9leHBpcmVzX2luPTg2NDAwJncyX2V4cGlyZXNfaW49MTgwMA%3D%3D&top_session=6101115f5a1d9413edcbc5a1f1c3b29a71c29e83ac971b12710572250&top_sign=Rj4HtbA04A%2F31rXVRQCe8g%3D%3D [运行时间：0.060004s][吞吐率：16.67req/s] [内存消耗：1,498.02kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\www.xw.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://container.api.taobao.com/container?appkey=24943594',
+  'cookie' => '_pk_id.1.dc78=1545e201a7a70540.1526892425.1.1526892890.1526892425.; UM_distinctid=163affc7d05c2-03b44a3a95719a-46514133-1fa400-163affc7d07311; CNZZDATA5133446=cnzz_eid%3D731177138-1527664191-%26ntime%3D1527664191; Hm_lvt_1af382081d6b4b9fc610c4df9c51a95b=1527665950; Hm_lvt_d4c63618ad27be8f818e4fa9e86fe726=1527666013; _ga=GA1.1.316614368.1527666013; Hm_lvt_935fbf0ceb04a31feea33ba1b481978b=1527666119',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'top_appkey' => '24943594',
+  'top_parameters' => 'ZXhwaXJlc19pbj04NjQwMCZpZnJhbWU9MSZyMV9leHBpcmVzX2luPTg2NDAwJnIyX2V4cGlyZXNfaW49ODY0MDAmcmVfZXhwaXJlc19pbj0yNTkyMDAwJnJlZnJlc2hfdG9rZW49NjEwMDcxNTdiZTRjYjE1MjBmYmJmNWUxY2E5ODE5N2M4NmFiNWM2MmZhZjNkNTIyNzEwNTcyMjUwJnRzPTE1MzA1MTc4NzU3NDAmdmlzaXRvcl9pZD0yNzEwNTcyMjUwJnZpc2l0b3Jfbmljaz3OqNH037Lq0yZ3MV9leHBpcmVzX2luPTg2NDAwJncyX2V4cGlyZXNfaW49MTgwMA==',
+  'top_session' => '6101115f5a1d9413edcbc5a1f1c3b29a71c29e83ac971b12710572250',
+  'top_sign' => 'Rj4HtbA04A/31rXVRQCe8g==',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-02T15:54:03+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/test?top_appkey=24943594&top_parameters=ZXhwaXJlc19pbj04NjQwMCZpZnJhbWU9MSZyMV9leHBpcmVzX2luPTg2NDAwJnIyX2V4cGlyZXNfaW49ODY0MDAmcmVfZXhwaXJlc19pbj0yNTkyMDAwJnJlZnJlc2hfdG9rZW49NjEwMDcxNTdiZTRjYjE1MjBmYmJmNWUxY2E5ODE5N2M4NmFiNWM2MmZhZjNkNTIyNzEwNTcyMjUwJnRzPTE1MzA1MTc4NzU3NDAmdmlzaXRvcl9pZD0yNzEwNTcyMjUwJnZpc2l0b3Jfbmljaz3OqNH037Lq0yZ3MV9leHBpcmVzX2luPTg2NDAwJncyX2V4cGlyZXNfaW49MTgwMA%3D%3D&top_session=6101115f5a1d9413edcbc5a1f1c3b29a71c29e83ac971b12710572250&top_sign=Rj4HtbA04A%2F31rXVRQCe8g%3D%3D
+[ log ] 127.0.0.1/index.php/index/test?top_appkey=24943594&top_parameters=ZXhwaXJlc19pbj04NjQwMCZpZnJhbWU9MSZyMV9leHBpcmVzX2luPTg2NDAwJnIyX2V4cGlyZXNfaW49ODY0MDAmcmVfZXhwaXJlc19pbj0yNTkyMDAwJnJlZnJlc2hfdG9rZW49NjEwMDcxNTdiZTRjYjE1MjBmYmJmNWUxY2E5ODE5N2M4NmFiNWM2MmZhZjNkNTIyNzEwNTcyMjUwJnRzPTE1MzA1MTc4NzU3NDAmdmlzaXRvcl9pZD0yNzEwNTcyMjUwJnZpc2l0b3Jfbmljaz3OqNH037Lq0yZ3MV9leHBpcmVzX2luPTg2NDAwJncyX2V4cGlyZXNfaW49MTgwMA%3D%3D&top_session=6101115f5a1d9413edcbc5a1f1c3b29a71c29e83ac971b12710572250&top_sign=Rj4HtbA04A%2F31rXVRQCe8g%3D%3D [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,498.14kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\www.xw.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://container.api.taobao.com/container?appkey=24943594',
+  'cookie' => '_pk_id.1.dc78=1545e201a7a70540.1526892425.1.1526892890.1526892425.; UM_distinctid=163affc7d05c2-03b44a3a95719a-46514133-1fa400-163affc7d07311; CNZZDATA5133446=cnzz_eid%3D731177138-1527664191-%26ntime%3D1527664191; Hm_lvt_1af382081d6b4b9fc610c4df9c51a95b=1527665950; Hm_lvt_d4c63618ad27be8f818e4fa9e86fe726=1527666013; _ga=GA1.1.316614368.1527666013; Hm_lvt_935fbf0ceb04a31feea33ba1b481978b=1527666119',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'top_appkey' => '24943594',
+  'top_parameters' => 'ZXhwaXJlc19pbj04NjQwMCZpZnJhbWU9MSZyMV9leHBpcmVzX2luPTg2NDAwJnIyX2V4cGlyZXNfaW49ODY0MDAmcmVfZXhwaXJlc19pbj0yNTkyMDAwJnJlZnJlc2hfdG9rZW49NjEwMDcxNTdiZTRjYjE1MjBmYmJmNWUxY2E5ODE5N2M4NmFiNWM2MmZhZjNkNTIyNzEwNTcyMjUwJnRzPTE1MzA1MTc4NzU3NDAmdmlzaXRvcl9pZD0yNzEwNTcyMjUwJnZpc2l0b3Jfbmljaz3OqNH037Lq0yZ3MV9leHBpcmVzX2luPTg2NDAwJncyX2V4cGlyZXNfaW49MTgwMA==',
+  'top_session' => '6101115f5a1d9413edcbc5a1f1c3b29a71c29e83ac971b12710572250',
+  'top_sign' => 'Rj4HtbA04A/31rXVRQCe8g==',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-02T15:54:51+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/index/getSessionKey?top_appkey=24943594&top_parameters=ZXhwaXJlc19pbj04NjQwMCZpZnJhbWU9MSZyMV9leHBpcmVzX2luPTg2NDAwJnIyX2V4cGlyZXNfaW49ODY0MDAmcmVfZXhwaXJlc19pbj0yNTkyMDAwJnJlZnJlc2hfdG9rZW49NjEwMDExNjdjYjk3NmUyMjdiZmMzNmRlMTg3NDIxNTgzMTBhNjA5NDBjYzNlZGIyNzEwNTcyMjUwJnRzPTE1MzA1MTgxMDY4MTUmdmlzaXRvcl9pZD0yNzEwNTcyMjUwJnZpc2l0b3Jfbmljaz3OqNH037Lq0yZ3MV9leHBpcmVzX2luPTg2NDAwJncyX2V4cGlyZXNfaW49MTgwMA%3D%3D&top_session=6101116f5a1d9413edcbc5aa1ca3bb6871c29e83ac971b12710572250&top_sign=8u4iFraj0SjTJH9%2BQLZCiA%3D%3D
+[ log ] 127.0.0.1/index.php/api/index/getSessionKey?top_appkey=24943594&top_parameters=ZXhwaXJlc19pbj04NjQwMCZpZnJhbWU9MSZyMV9leHBpcmVzX2luPTg2NDAwJnIyX2V4cGlyZXNfaW49ODY0MDAmcmVfZXhwaXJlc19pbj0yNTkyMDAwJnJlZnJlc2hfdG9rZW49NjEwMDExNjdjYjk3NmUyMjdiZmMzNmRlMTg3NDIxNTgzMTBhNjA5NDBjYzNlZGIyNzEwNTcyMjUwJnRzPTE1MzA1MTgxMDY4MTUmdmlzaXRvcl9pZD0yNzEwNTcyMjUwJnZpc2l0b3Jfbmljaz3OqNH037Lq0yZ3MV9leHBpcmVzX2luPTg2NDAwJncyX2V4cGlyZXNfaW49MTgwMA%3D%3D&top_session=6101116f5a1d9413edcbc5aa1ca3bb6871c29e83ac971b12710572250&top_sign=8u4iFraj0SjTJH9%2BQLZCiA%3D%3D [运行时间：0.054004s][吞吐率：18.52req/s] [内存消耗：1,502.80kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\www.xw.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getSessionKey',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://container.api.taobao.com/container?appkey=24943594',
+  'cookie' => '_pk_id.1.dc78=1545e201a7a70540.1526892425.1.1526892890.1526892425.; UM_distinctid=163affc7d05c2-03b44a3a95719a-46514133-1fa400-163affc7d07311; CNZZDATA5133446=cnzz_eid%3D731177138-1527664191-%26ntime%3D1527664191; Hm_lvt_1af382081d6b4b9fc610c4df9c51a95b=1527665950; Hm_lvt_d4c63618ad27be8f818e4fa9e86fe726=1527666013; _ga=GA1.1.316614368.1527666013; Hm_lvt_935fbf0ceb04a31feea33ba1b481978b=1527666119',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'top_appkey' => '24943594',
+  'top_parameters' => 'ZXhwaXJlc19pbj04NjQwMCZpZnJhbWU9MSZyMV9leHBpcmVzX2luPTg2NDAwJnIyX2V4cGlyZXNfaW49ODY0MDAmcmVfZXhwaXJlc19pbj0yNTkyMDAwJnJlZnJlc2hfdG9rZW49NjEwMDExNjdjYjk3NmUyMjdiZmMzNmRlMTg3NDIxNTgzMTBhNjA5NDBjYzNlZGIyNzEwNTcyMjUwJnRzPTE1MzA1MTgxMDY4MTUmdmlzaXRvcl9pZD0yNzEwNTcyMjUwJnZpc2l0b3Jfbmljaz3OqNH037Lq0yZ3MV9leHBpcmVzX2luPTg2NDAwJncyX2V4cGlyZXNfaW49MTgwMA==',
+  'top_session' => '6101116f5a1d9413edcbc5aa1ca3bb6871c29e83ac971b12710572250',
+  'top_sign' => '8u4iFraj0SjTJH9+QLZCiA==',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-02T15:54:57+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/getSessionKey?top_appkey=24943594&top_parameters=ZXhwaXJlc19pbj04NjQwMCZpZnJhbWU9MSZyMV9leHBpcmVzX2luPTg2NDAwJnIyX2V4cGlyZXNfaW49ODY0MDAmcmVfZXhwaXJlc19pbj0yNTkyMDAwJnJlZnJlc2hfdG9rZW49NjEwMDExNjdjYjk3NmUyMjdiZmMzNmRlMTg3NDIxNTgzMTBhNjA5NDBjYzNlZGIyNzEwNTcyMjUwJnRzPTE1MzA1MTgxMDY4MTUmdmlzaXRvcl9pZD0yNzEwNTcyMjUwJnZpc2l0b3Jfbmljaz3OqNH037Lq0yZ3MV9leHBpcmVzX2luPTg2NDAwJncyX2V4cGlyZXNfaW49MTgwMA%3D%3D&top_session=6101116f5a1d9413edcbc5aa1ca3bb6871c29e83ac971b12710572250&top_sign=8u4iFraj0SjTJH9%2BQLZCiA%3D%3D
+[ log ] 127.0.0.1/index.php/api/getSessionKey?top_appkey=24943594&top_parameters=ZXhwaXJlc19pbj04NjQwMCZpZnJhbWU9MSZyMV9leHBpcmVzX2luPTg2NDAwJnIyX2V4cGlyZXNfaW49ODY0MDAmcmVfZXhwaXJlc19pbj0yNTkyMDAwJnJlZnJlc2hfdG9rZW49NjEwMDExNjdjYjk3NmUyMjdiZmMzNmRlMTg3NDIxNTgzMTBhNjA5NDBjYzNlZGIyNzEwNTcyMjUwJnRzPTE1MzA1MTgxMDY4MTUmdmlzaXRvcl9pZD0yNzEwNTcyMjUwJnZpc2l0b3Jfbmljaz3OqNH037Lq0yZ3MV9leHBpcmVzX2luPTg2NDAwJncyX2V4cGlyZXNfaW49MTgwMA%3D%3D&top_session=6101116f5a1d9413edcbc5aa1ca3bb6871c29e83ac971b12710572250&top_sign=8u4iFraj0SjTJH9%2BQLZCiA%3D%3D [运行时间：0.032001s][吞吐率：31.25req/s] [内存消耗：1,500.92kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\www.xw.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'getSessionKey',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => '_pk_id.1.dc78=1545e201a7a70540.1526892425.1.1526892890.1526892425.; UM_distinctid=163affc7d05c2-03b44a3a95719a-46514133-1fa400-163affc7d07311; CNZZDATA5133446=cnzz_eid%3D731177138-1527664191-%26ntime%3D1527664191; Hm_lvt_1af382081d6b4b9fc610c4df9c51a95b=1527665950; Hm_lvt_d4c63618ad27be8f818e4fa9e86fe726=1527666013; _ga=GA1.1.316614368.1527666013; Hm_lvt_935fbf0ceb04a31feea33ba1b481978b=1527666119',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'top_appkey' => '24943594',
+  'top_parameters' => 'ZXhwaXJlc19pbj04NjQwMCZpZnJhbWU9MSZyMV9leHBpcmVzX2luPTg2NDAwJnIyX2V4cGlyZXNfaW49ODY0MDAmcmVfZXhwaXJlc19pbj0yNTkyMDAwJnJlZnJlc2hfdG9rZW49NjEwMDExNjdjYjk3NmUyMjdiZmMzNmRlMTg3NDIxNTgzMTBhNjA5NDBjYzNlZGIyNzEwNTcyMjUwJnRzPTE1MzA1MTgxMDY4MTUmdmlzaXRvcl9pZD0yNzEwNTcyMjUwJnZpc2l0b3Jfbmljaz3OqNH037Lq0yZ3MV9leHBpcmVzX2luPTg2NDAwJncyX2V4cGlyZXNfaW49MTgwMA==',
+  'top_session' => '6101116f5a1d9413edcbc5aa1ca3bb6871c29e83ac971b12710572250',
+  'top_sign' => '8u4iFraj0SjTJH9+QLZCiA==',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-02T15:55:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/getSessionKey
+[ log ] 127.0.0.1/index.php/api/getSessionKey [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,499.50kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\www.xw.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'getSessionKey',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => '_pk_id.1.dc78=1545e201a7a70540.1526892425.1.1526892890.1526892425.; UM_distinctid=163affc7d05c2-03b44a3a95719a-46514133-1fa400-163affc7d07311; CNZZDATA5133446=cnzz_eid%3D731177138-1527664191-%26ntime%3D1527664191; Hm_lvt_1af382081d6b4b9fc610c4df9c51a95b=1527665950; Hm_lvt_d4c63618ad27be8f818e4fa9e86fe726=1527666013; _ga=GA1.1.316614368.1527666013; Hm_lvt_935fbf0ceb04a31feea33ba1b481978b=1527666119',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-02T15:55:14+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/index/getSessionKey
+[ log ] 127.0.0.1/index.php/api/index/getSessionKey [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,501.16kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\www.xw.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getSessionKey',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => '_pk_id.1.dc78=1545e201a7a70540.1526892425.1.1526892890.1526892425.; UM_distinctid=163affc7d05c2-03b44a3a95719a-46514133-1fa400-163affc7d07311; CNZZDATA5133446=cnzz_eid%3D731177138-1527664191-%26ntime%3D1527664191; Hm_lvt_1af382081d6b4b9fc610c4df9c51a95b=1527665950; Hm_lvt_d4c63618ad27be8f818e4fa9e86fe726=1527666013; _ga=GA1.1.316614368.1527666013; Hm_lvt_935fbf0ceb04a31feea33ba1b481978b=1527666119',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-02T15:55:28+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/index/getSessionKey
+[ log ] 127.0.0.1/index.php/api/index/getSessionKey [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,501.24kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\www.xw.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getSessionKey',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => '_pk_id.1.dc78=1545e201a7a70540.1526892425.1.1526892890.1526892425.; UM_distinctid=163affc7d05c2-03b44a3a95719a-46514133-1fa400-163affc7d07311; CNZZDATA5133446=cnzz_eid%3D731177138-1527664191-%26ntime%3D1527664191; Hm_lvt_1af382081d6b4b9fc610c4df9c51a95b=1527665950; Hm_lvt_d4c63618ad27be8f818e4fa9e86fe726=1527666013; _ga=GA1.1.316614368.1527666013; Hm_lvt_935fbf0ceb04a31feea33ba1b481978b=1527666119',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-02T15:55:53+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/index/getSessionKey
+[ log ] 127.0.0.1/index.php/api/index/getSessionKey [运行时间：0.030001s][吞吐率：33.33req/s] [内存消耗：1,501.24kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\www.xw.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getSessionKey',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => '_pk_id.1.dc78=1545e201a7a70540.1526892425.1.1526892890.1526892425.; UM_distinctid=163affc7d05c2-03b44a3a95719a-46514133-1fa400-163affc7d07311; CNZZDATA5133446=cnzz_eid%3D731177138-1527664191-%26ntime%3D1527664191; Hm_lvt_1af382081d6b4b9fc610c4df9c51a95b=1527665950; Hm_lvt_d4c63618ad27be8f818e4fa9e86fe726=1527666013; _ga=GA1.1.316614368.1527666013; Hm_lvt_935fbf0ceb04a31feea33ba1b481978b=1527666119',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-02T15:56:08+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/index/
+[ log ] 127.0.0.1/index.php/api/index/ [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：1,456.44kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\www.xw.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => '_pk_id.1.dc78=1545e201a7a70540.1526892425.1.1526892890.1526892425.; UM_distinctid=163affc7d05c2-03b44a3a95719a-46514133-1fa400-163affc7d07311; CNZZDATA5133446=cnzz_eid%3D731177138-1527664191-%26ntime%3D1527664191; Hm_lvt_1af382081d6b4b9fc610c4df9c51a95b=1527665950; Hm_lvt_d4c63618ad27be8f818e4fa9e86fe726=1527666013; _ga=GA1.1.316614368.1527666013; Hm_lvt_935fbf0ceb04a31feea33ba1b481978b=1527666119',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\phpStudy\WWW\www.xw.com\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-02T15:56:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/index/getSessionKey
+[ log ] 127.0.0.1/index.php/api/index/getSessionKey [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,501.29kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\www.xw.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getSessionKey',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => '_pk_id.1.dc78=1545e201a7a70540.1526892425.1.1526892890.1526892425.; UM_distinctid=163affc7d05c2-03b44a3a95719a-46514133-1fa400-163affc7d07311; CNZZDATA5133446=cnzz_eid%3D731177138-1527664191-%26ntime%3D1527664191; Hm_lvt_1af382081d6b4b9fc610c4df9c51a95b=1527665950; Hm_lvt_d4c63618ad27be8f818e4fa9e86fe726=1527666013; _ga=GA1.1.316614368.1527666013; Hm_lvt_935fbf0ceb04a31feea33ba1b481978b=1527666119',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-02T15:56:23+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/index/getSessionKey
+[ log ] 127.0.0.1/index.php/api/index/getSessionKey [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,501.24kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\www.xw.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getSessionKey',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => '_pk_id.1.dc78=1545e201a7a70540.1526892425.1.1526892890.1526892425.; UM_distinctid=163affc7d05c2-03b44a3a95719a-46514133-1fa400-163affc7d07311; CNZZDATA5133446=cnzz_eid%3D731177138-1527664191-%26ntime%3D1527664191; Hm_lvt_1af382081d6b4b9fc610c4df9c51a95b=1527665950; Hm_lvt_d4c63618ad27be8f818e4fa9e86fe726=1527666013; _ga=GA1.1.316614368.1527666013; Hm_lvt_935fbf0ceb04a31feea33ba1b481978b=1527666119',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-02T15:56:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/index/getSessionKey
+[ log ] 127.0.0.1/index.php/api/index/getSessionKey [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,501.24kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\www.xw.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getSessionKey',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => '_pk_id.1.dc78=1545e201a7a70540.1526892425.1.1526892890.1526892425.; UM_distinctid=163affc7d05c2-03b44a3a95719a-46514133-1fa400-163affc7d07311; CNZZDATA5133446=cnzz_eid%3D731177138-1527664191-%26ntime%3D1527664191; Hm_lvt_1af382081d6b4b9fc610c4df9c51a95b=1527665950; Hm_lvt_d4c63618ad27be8f818e4fa9e86fe726=1527666013; _ga=GA1.1.316614368.1527666013; Hm_lvt_935fbf0ceb04a31feea33ba1b481978b=1527666119',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-02T15:56:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/index/getsessionkey
+[ log ] 127.0.0.1/index.php/api/index/getsessionkey [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,501.16kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\www.xw.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getsessionkey',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => '_pk_id.1.dc78=1545e201a7a70540.1526892425.1.1526892890.1526892425.; UM_distinctid=163affc7d05c2-03b44a3a95719a-46514133-1fa400-163affc7d07311; CNZZDATA5133446=cnzz_eid%3D731177138-1527664191-%26ntime%3D1527664191; Hm_lvt_1af382081d6b4b9fc610c4df9c51a95b=1527665950; Hm_lvt_d4c63618ad27be8f818e4fa9e86fe726=1527666013; _ga=GA1.1.316614368.1527666013; Hm_lvt_935fbf0ceb04a31feea33ba1b481978b=1527666119',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-02T15:57:32+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/index/getsessionkey
+[ log ] 127.0.0.1/index.php/api/index/getsessionkey [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,501.29kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\www.xw.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getsessionkey',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => '_pk_id.1.dc78=1545e201a7a70540.1526892425.1.1526892890.1526892425.; UM_distinctid=163affc7d05c2-03b44a3a95719a-46514133-1fa400-163affc7d07311; CNZZDATA5133446=cnzz_eid%3D731177138-1527664191-%26ntime%3D1527664191; Hm_lvt_1af382081d6b4b9fc610c4df9c51a95b=1527665950; Hm_lvt_d4c63618ad27be8f818e4fa9e86fe726=1527666013; _ga=GA1.1.316614368.1527666013; Hm_lvt_935fbf0ceb04a31feea33ba1b481978b=1527666119',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-02T15:57:33+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/index/getsessionkey
+[ log ] 127.0.0.1/index.php/api/index/getsessionkey [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,501.24kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\www.xw.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getsessionkey',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => '_pk_id.1.dc78=1545e201a7a70540.1526892425.1.1526892890.1526892425.; UM_distinctid=163affc7d05c2-03b44a3a95719a-46514133-1fa400-163affc7d07311; CNZZDATA5133446=cnzz_eid%3D731177138-1527664191-%26ntime%3D1527664191; Hm_lvt_1af382081d6b4b9fc610c4df9c51a95b=1527665950; Hm_lvt_d4c63618ad27be8f818e4fa9e86fe726=1527666013; _ga=GA1.1.316614368.1527666013; Hm_lvt_935fbf0ceb04a31feea33ba1b481978b=1527666119',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-02T15:57:33+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/index/getsessionkey
+[ log ] 127.0.0.1/index.php/api/index/getsessionkey [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,501.24kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\www.xw.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getsessionkey',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => '_pk_id.1.dc78=1545e201a7a70540.1526892425.1.1526892890.1526892425.; UM_distinctid=163affc7d05c2-03b44a3a95719a-46514133-1fa400-163affc7d07311; CNZZDATA5133446=cnzz_eid%3D731177138-1527664191-%26ntime%3D1527664191; Hm_lvt_1af382081d6b4b9fc610c4df9c51a95b=1527665950; Hm_lvt_d4c63618ad27be8f818e4fa9e86fe726=1527666013; _ga=GA1.1.316614368.1527666013; Hm_lvt_935fbf0ceb04a31feea33ba1b481978b=1527666119',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-02T15:57:33+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/index/getsessionkey
+[ log ] 127.0.0.1/index.php/api/index/getsessionkey [运行时间：0.030001s][吞吐率：33.33req/s] [内存消耗：1,501.24kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\www.xw.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getsessionkey',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => '_pk_id.1.dc78=1545e201a7a70540.1526892425.1.1526892890.1526892425.; UM_distinctid=163affc7d05c2-03b44a3a95719a-46514133-1fa400-163affc7d07311; CNZZDATA5133446=cnzz_eid%3D731177138-1527664191-%26ntime%3D1527664191; Hm_lvt_1af382081d6b4b9fc610c4df9c51a95b=1527665950; Hm_lvt_d4c63618ad27be8f818e4fa9e86fe726=1527666013; _ga=GA1.1.316614368.1527666013; Hm_lvt_935fbf0ceb04a31feea33ba1b481978b=1527666119',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-02T15:57:33+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/index/getsessionkey
+[ log ] 127.0.0.1/index.php/api/index/getsessionkey [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,501.24kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\www.xw.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getsessionkey',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => '_pk_id.1.dc78=1545e201a7a70540.1526892425.1.1526892890.1526892425.; UM_distinctid=163affc7d05c2-03b44a3a95719a-46514133-1fa400-163affc7d07311; CNZZDATA5133446=cnzz_eid%3D731177138-1527664191-%26ntime%3D1527664191; Hm_lvt_1af382081d6b4b9fc610c4df9c51a95b=1527665950; Hm_lvt_d4c63618ad27be8f818e4fa9e86fe726=1527666013; _ga=GA1.1.316614368.1527666013; Hm_lvt_935fbf0ceb04a31feea33ba1b481978b=1527666119',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-02T15:57:34+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/index/getsessionkey
+[ log ] 127.0.0.1/index.php/api/index/getsessionkey [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,501.24kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\www.xw.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getsessionkey',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => '_pk_id.1.dc78=1545e201a7a70540.1526892425.1.1526892890.1526892425.; UM_distinctid=163affc7d05c2-03b44a3a95719a-46514133-1fa400-163affc7d07311; CNZZDATA5133446=cnzz_eid%3D731177138-1527664191-%26ntime%3D1527664191; Hm_lvt_1af382081d6b4b9fc610c4df9c51a95b=1527665950; Hm_lvt_d4c63618ad27be8f818e4fa9e86fe726=1527666013; _ga=GA1.1.316614368.1527666013; Hm_lvt_935fbf0ceb04a31feea33ba1b481978b=1527666119',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-02T15:57:34+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/index/getsessionkey
+[ log ] 127.0.0.1/index.php/api/index/getsessionkey [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,501.24kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\www.xw.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getsessionkey',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => '_pk_id.1.dc78=1545e201a7a70540.1526892425.1.1526892890.1526892425.; UM_distinctid=163affc7d05c2-03b44a3a95719a-46514133-1fa400-163affc7d07311; CNZZDATA5133446=cnzz_eid%3D731177138-1527664191-%26ntime%3D1527664191; Hm_lvt_1af382081d6b4b9fc610c4df9c51a95b=1527665950; Hm_lvt_d4c63618ad27be8f818e4fa9e86fe726=1527666013; _ga=GA1.1.316614368.1527666013; Hm_lvt_935fbf0ceb04a31feea33ba1b481978b=1527666119',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-02T15:57:34+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/index/getsessionkey
+[ log ] 127.0.0.1/index.php/api/index/getsessionkey [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,501.24kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\www.xw.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getsessionkey',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => '_pk_id.1.dc78=1545e201a7a70540.1526892425.1.1526892890.1526892425.; UM_distinctid=163affc7d05c2-03b44a3a95719a-46514133-1fa400-163affc7d07311; CNZZDATA5133446=cnzz_eid%3D731177138-1527664191-%26ntime%3D1527664191; Hm_lvt_1af382081d6b4b9fc610c4df9c51a95b=1527665950; Hm_lvt_d4c63618ad27be8f818e4fa9e86fe726=1527666013; _ga=GA1.1.316614368.1527666013; Hm_lvt_935fbf0ceb04a31feea33ba1b481978b=1527666119',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-02T15:57:34+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/index/getsessionkey
+[ log ] 127.0.0.1/index.php/api/index/getsessionkey [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,501.29kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\www.xw.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getsessionkey',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => '_pk_id.1.dc78=1545e201a7a70540.1526892425.1.1526892890.1526892425.; UM_distinctid=163affc7d05c2-03b44a3a95719a-46514133-1fa400-163affc7d07311; CNZZDATA5133446=cnzz_eid%3D731177138-1527664191-%26ntime%3D1527664191; Hm_lvt_1af382081d6b4b9fc610c4df9c51a95b=1527665950; Hm_lvt_d4c63618ad27be8f818e4fa9e86fe726=1527666013; _ga=GA1.1.316614368.1527666013; Hm_lvt_935fbf0ceb04a31feea33ba1b481978b=1527666119',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-02T15:57:34+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/index/getsessionkey
+[ log ] 127.0.0.1/index.php/api/index/getsessionkey [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,501.54kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\www.xw.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getsessionkey',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => '_pk_id.1.dc78=1545e201a7a70540.1526892425.1.1526892890.1526892425.; UM_distinctid=163affc7d05c2-03b44a3a95719a-46514133-1fa400-163affc7d07311; CNZZDATA5133446=cnzz_eid%3D731177138-1527664191-%26ntime%3D1527664191; Hm_lvt_1af382081d6b4b9fc610c4df9c51a95b=1527665950; Hm_lvt_d4c63618ad27be8f818e4fa9e86fe726=1527666013; _ga=GA1.1.316614368.1527666013; Hm_lvt_935fbf0ceb04a31feea33ba1b481978b=1527666119',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-02T15:57:35+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/index/getsessionkey
+[ log ] 127.0.0.1/index.php/api/index/getsessionkey [运行时间：0.031001s][吞吐率：32.26req/s] [内存消耗：1,501.54kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\www.xw.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getsessionkey',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => '_pk_id.1.dc78=1545e201a7a70540.1526892425.1.1526892890.1526892425.; UM_distinctid=163affc7d05c2-03b44a3a95719a-46514133-1fa400-163affc7d07311; CNZZDATA5133446=cnzz_eid%3D731177138-1527664191-%26ntime%3D1527664191; Hm_lvt_1af382081d6b4b9fc610c4df9c51a95b=1527665950; Hm_lvt_d4c63618ad27be8f818e4fa9e86fe726=1527666013; _ga=GA1.1.316614368.1527666013; Hm_lvt_935fbf0ceb04a31feea33ba1b481978b=1527666119',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-02T15:57:35+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/index/getsessionkey
+[ log ] 127.0.0.1/index.php/api/index/getsessionkey [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,501.54kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\www.xw.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getsessionkey',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => '_pk_id.1.dc78=1545e201a7a70540.1526892425.1.1526892890.1526892425.; UM_distinctid=163affc7d05c2-03b44a3a95719a-46514133-1fa400-163affc7d07311; CNZZDATA5133446=cnzz_eid%3D731177138-1527664191-%26ntime%3D1527664191; Hm_lvt_1af382081d6b4b9fc610c4df9c51a95b=1527665950; Hm_lvt_d4c63618ad27be8f818e4fa9e86fe726=1527666013; _ga=GA1.1.316614368.1527666013; Hm_lvt_935fbf0ceb04a31feea33ba1b481978b=1527666119',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-02T15:57:43+08:00 ] 127.0.0.1 127.0.0.1 GET /api/index/getsessionkey
+[ log ] 127.0.0.1/api/index/getsessionkey [运行时间：0.031001s][吞吐率：32.26req/s] [内存消耗：1,501.19kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\www.xw.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getsessionkey',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => '_pk_id.1.dc78=1545e201a7a70540.1526892425.1.1526892890.1526892425.; UM_distinctid=163affc7d05c2-03b44a3a95719a-46514133-1fa400-163affc7d07311; CNZZDATA5133446=cnzz_eid%3D731177138-1527664191-%26ntime%3D1527664191; Hm_lvt_1af382081d6b4b9fc610c4df9c51a95b=1527665950; Hm_lvt_d4c63618ad27be8f818e4fa9e86fe726=1527666013; _ga=GA1.1.316614368.1527666013; Hm_lvt_935fbf0ceb04a31feea33ba1b481978b=1527666119',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-02T16:30:45+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] 127.0.0.1/ [运行时间：0.131008s][吞吐率：7.63req/s] [内存消耗：1,452.65kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\WWW\www.xw.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => '_pk_id.1.dc78=1545e201a7a70540.1526892425.1.1526892890.1526892425.; UM_distinctid=163affc7d05c2-03b44a3a95719a-46514133-1fa400-163affc7d07311; CNZZDATA5133446=cnzz_eid%3D731177138-1527664191-%26ntime%3D1527664191; Hm_lvt_1af382081d6b4b9fc610c4df9c51a95b=1527665950; Hm_lvt_d4c63618ad27be8f818e4fa9e86fe726=1527666013; _ga=GA1.1.316614368.1527666013; Hm_lvt_935fbf0ceb04a31feea33ba1b481978b=1527666119',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\www.xw.com\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

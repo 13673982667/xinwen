@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<!-- <link rel="stylesheet" type="text/css" href="__PUBLIC__/static/api/css/reset.css" /> -->
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+</head>
+<style type="text/css">
+	
+</style>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/static/mui/mui.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/static/swiper/swiper-4.2.0.min.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/static/api/css/guanggao_news.css">
+
+<body><div style="  margin:0 auto;top:-500px; width: 0; height: 0;overflow:hidden; position:absolute;"><img src="http://xinwen2.xylnqn.com/public/uploads/20180411/a99faba5cfa322a899089e50088341fe.jpg"></div>
+	<div class="mui-content">
+		
+		<div class="gg">
+			<a class="ad-img">
+				<div class="tiaoguo">跳过</div>
+				<img src="{$guanggao['arr'][0]['ggimg']}" />
+			</a>
+			<div class="ad-logo">
+				<img src="{$appguanggao.appguanggaoimg|default='./public/uploads/ad-logo.png'}" />
+			</div>
+		</div>
+
+		<div class="iframe">
+			<iframe src="{$newsInfo.news_url}" id="iframetest"  scrolling="yes" allowtransparency="yes" frameborder="0" >
+			</iframe>
+		</div>
+	
+	</div>
+</body>
+
+</html>
+<script src="__PUBLIC__/static/mui/mui.js"></script>
+<!-- <script src="__PUBLIC__/static/common/js/zepto.js"></script> -->
+<script src="__PUBLIC__/static/common/js/jquery-2.1.0.js"></script>
+<script src="__PUBLIC__/static/common/js/arttmpl.js"></script>
+<script src="__PUBLIC__/static/swiper/swiper-4.2.0.min.js"></script>
+<!-- <script src="__PUBLIC__/static/swiper/swiper3.js"></script> -->
+<script type="text/javascript">
+
+	setTimeout(function(){
+		contentshow();
+
+	},({$guanggao['ggtime']} * 1000));
+	$('.tiaoguo').click(function(){
+		contentshow();
+	});
+
+	//显示文章内容
+	function contentshow(){
+		// $('.mui-content').html(template('mui-content',{}));
+		$('.gg').hide();
+	}
+</script>

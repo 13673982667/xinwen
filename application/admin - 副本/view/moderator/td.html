@@ -1,0 +1,14 @@
+<td><input type="checkbox" name="id[]" value="{$vo.id}"></td>
+<td>{$vo.id}</td>
+<td>{$vo.Users.user_name}</td>
+<td>{$vo.ban_name|high_light=$Request.param.ban_name}</td>
+<td><img src="{$vo.headimgurl}" style="max-width: 80px; height: 80px"></td>
+<td>{$vo.create_time|date="Y-m-d" , ###}</td>
+<!-- <td>{$vo.isdelete}</td> -->
+<td>{$vo.jianjie}</td>
+<td><img src="{$vo.cover}" style="max-width: 180px; height: 80px"></td>
+<th width="">{$vo.ggtime}</th>
+<!-- <td>{$vo.status|get_status}</td> -->
+<td data-rank='{$vo.rank}' data-id="{$vo.id}" >{$vo.rank|get_quanxian=###,$vo.id}</td>
+ <td data-id="{$vo.id}" data-is_true="is_tuijian" data-val="{$vo.is_tuijian}" >{$vo.is_tuijian|get_is_tuijian=###,$vo.id}</td>
+<td data-id="{$vo.id}" data-is_true="zhiding" data-val="{$vo.zhiding}" >{:get_is_zhiding($vo.zhiding)}</td>

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{$newsInfo.title}</title>
+	<!-- <link rel="stylesheet" type="text/css" href="__PUBLIC__/static/api/css/reset.css" /> -->
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+</head>
+<style type="text/css">
+	.mui-content{
+		height:100%;
+	}
+	.tel{
+		width: 45%;
+		height:  25%;
+		position: absolute;
+		bottom: 15%;
+		left:0;
+		color: #fff;
+		/*background-color: #ff0000;*/
+		background: url('__PUBLIC__/uploads/img/tel.png');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+
+	}
+	.address{
+		width: 45%;
+		height: 25%;
+		position: absolute;
+		bottom: 12%;
+		right:0;
+		color: #fff;
+		background: url('__PUBLIC__/uploads/img/address.png');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+	.gg{
+		position: fixed;
+		width: 100%;
+		z-index: 2;
+		height: 100%;
+	}
+	/*.mui-content{
+		position: absolute;
+		height: 100%;
+	}*/
+	.iframe{
+		position: relative;
+		top: 0;
+		z-index: 1;
+	}
+</style>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/static/mui/mui.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/static/swiper/swiper-4.2.0.min.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/static/api/css/guanggao_news.css">
+
+<body>
+<!-- <img src="__PUBLIC__/uploads/img/tel.png" alt=""> -->
+	<div class="mui-content">
+		<div class="gg" {if condition="$news_url"}style="display:none;"{/if}>
+			{if condition="!empty($guanggao)"}
+			<a {if condition="$guanggao['arr'][0]['ggurl'] != ''"}href="{$guanggao['arr'][0]['ggurl']}"{/if} class="ad-img">
+				<div class="tiaoguo">跳过</div>
+				<img src="{$guanggao['arr'][0]['ggimg']}" />
+			</a>
+			<div class="ad-logo">
+				<img src="{$appguanggao.appguanggaoimg|default='./public/uploads/ad-logo.png'}" />
+			</div>
+				<!-- 联系方式 -->
+				{if condition="!empty($guanggao['arr'][0]['tel'])"}
+					<a href="tel:{$guanggao['arr'][0]['tel']}" class="tel"></a>
+				{/if}
+				<!-- 联系地址 -->
+				{if condition="!empty($guanggao['arr'][0]['lat'])&&!empty($guanggao['arr'][0]['lng'])"}
+				<div class="address_">
+					<a  class="address"></a>
+				</div>
+				{/if}
+			{/if}
+		</div>
+		
+		<div class="iframe">
+			<iframe src="{$newsInfo.news_url}" id="iframetest"  scrolling="yes" allowtransparency="yes" frameborder="0" ></iframe>
+		</div>
+	
+	</div>
+</body>
+
+</html>
+<script src="__PUBLIC__/static/mui/mui.js"></script>
+<!-- <script src="__PUBLIC__/static/common/js/zepto.js"></script> -->
+<script src="__PUBLIC__/static/common/js/jquery-2.1.0.js"></script>
+<script src="__PUBLIC__/static/common/js/arttmpl.js"></script>
+<script src="__PUBLIC__/static/swiper/swiper-4.2.0.min.js"></script>
+<!-- 百度地图包 -->
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=bE7mlBvGPyQf8yUkL4HHknvPB3WzTSUC"></script>
+<script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js" type="text/javascript" charset="utf-8" ></script>
+<!-- <script src="__PUBLIC__/static/swiper/swiper3.js"></script> -->
+<script type="text/javascript">
+var address;
+	setTimeout(function(){
+		contentshow();
+
+	},({$guanggao['ggtime'] | default='0'} * 1000));
+	$('.tiaoguo').click(function(e){
+		e.preventDefault(); // -- 阻止元素的默认事件。
+		contentshow();
+	});
+
+	//显示文章内容
+	function contentshow(){
+		// $('.mui-content').html(template('mui-content',{}));
+		$('.gg').hide();
+	}
+{if condition="!empty($guanggao['arr'][0]['lat'])&&!empty($guanggao['arr'][0]['lng'])"}
+$('.address').on('tap',function(){
+	Map()
+});
+function Map(){
+	// 百度地图API功能
+	var map = new BMap.Map("allmap");
+	var geolocation = new BMap.Geolocation(); //获取当前坐标
+	geolocation.getCurrentPosition(function(r){
+		if(this.getStatus() == BMAP_STATUS_SUCCESS){
+			//默认当前的坐标
+			// console.log(JSON.stringify(r));
+			address = {"lng":r.point.lng,"lat":r.point.lat};
+			var url = 'http://api.map.baidu.com/direction?'+
+				'origin=latlng:'+address.lat+','+address.lng+'|name:我的位置&'+
+				"destination=latlng:{$guanggao['arr'][0]['lat']},{$guanggao['arr'][0]['lng']}|name:{$address_arr[3]|default='终点'}"+
+				'&destination_region={$address_arr[1]|default=''}'+
+				'&origin_region='+r.address.city+
+				'&mode=driving&output=html&src=yourCompanyName|yourAppName';
+				// console.log(url);
+				window.location.href=url;
+				// $('.address_').append('<a class="address" href="'+url+'"></a>');
+		}      
+	},{enableHighAccuracy: true})
+}
+{else/}
+$('.address').on('tap',function(){
+	mui.toast('用户还没有添加地址哦！')
+});
+{/if}
+
+
+
+
+
+
+
+
+
+wx.config({
+    debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+    appId: '{$SignPackage.appId}', // 必填，公众号的唯一标识
+    timestamp: '{$SignPackage.timestamp}', // 必填，生成签名的时间戳
+    nonceStr: '{$SignPackage.nonceStr}', // 必填，生成签名的随机串
+    signature: '{$SignPackage.signature}',// 必填，签名
+    jsApiList: ['onMenuShareTimeline','onMenuShareAppMessage'] // 必填，需要使用的JS接口列表
+});
+
+wx.ready(function(){
+		//朋友圈
+	wx.onMenuShareTimeline({
+	    title: $('title').html(), // 分享标题
+	    link: '', // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+	    imgUrl: '{:empty($newsInfo.w_cover)?$newsInfo.headimgurl:$newsInfo.w_cover}', // 分享图标
+	    success: function () {
+	    // 用户确认分享后执行的回调函数
+		},
+		cancel: function () {
+	    // 用户取消分享后执行的回调函数
+	  	}
+	});
+	//分享朋友
+	wx.onMenuShareAppMessage({
+		title: $('title').html(), // 分享标题
+		desc: '', // 分享描述
+		link: '', // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+		imgUrl: '{:empty($newsInfo.w_cover)?$newsInfo.headimgurl:$newsInfo.w_cover}', // 分享图标
+		type: '', // 分享类型,music、video或link，不填默认为link
+		dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
+		success: function () {
+		// 用户确认分享后执行的回调函数
+		},
+		cancel: function () {
+		// 用户取消分享后执行的回调函数
+		}
+	});
+    // config信息验证后会执行ready方法，所有接口调用都必须在config接口获得结果之后，config是一个客户端的异步操作，所以如果需要在页面加载时就调用相关接口，则须把相关接口放在ready函数中调用来确保正确执行。对于用户触发时才调用的接口，则可以直接调用，不需要放在ready函数中。
+});
+
+wx.error(function(res){
+    // config信息验证失败会执行error函数，如签名过期导致验证失败，具体错误信息可以打开config的debug模式查看，也可以在返回的res参数中查看，对于SPA可以在这里更新签名。
+});
+
+
+</script>
